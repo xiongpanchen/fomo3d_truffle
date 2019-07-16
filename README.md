@@ -1,6 +1,4 @@
 ## 说明
-本项目通过reed 大佬的 [fomo3d_clone](https://github.com/reedhong/fomo3d_clone) 项目改造而成, 感谢 reed 大佬!!!
-
 此项目部署方式经实测仅可用于单节点(如 ganache-cli, testrpc, truffle develop, 私链), 一键的原理是用 `deployer.then` 在合约部署完后调用 set 方法将合约地址赋值  
  
  测试 kovan(infura 节点) 失败, ropsten 有一次成功了, 但后来 gasLimit 又下去了就一直没法测试了
